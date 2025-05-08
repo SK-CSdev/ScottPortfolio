@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+section {
+    padding: 20px;
+}
+h2 {
+    color: #333;
+    text-decoration: underline;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.skills, .projects, .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill, .project, .contact {
+    background-color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 45%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
