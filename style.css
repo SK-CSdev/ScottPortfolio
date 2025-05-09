@@ -47,21 +47,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-.gridContainer {
-    display: grid;
-  grid-template-areas:
-    "image content";
-  grid-template-columns: auto 3fr;
-  gap: 5px;
-  background-color: white;
-  padding: 5px;
-  max-width: 1200px;
-  width: 45%;
-  margin: 0 auto;
-}
-.gridContainer > div.content {
-    grid-area: content;
-  }
-.gridContainer > div.image {
-    grid-area: image;
-}
